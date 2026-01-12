@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeIn Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1> CodeIn </h1>
+    <p>HTML • CSS • JavaScript Editor</p>
+</div>
+
+<div class="editors-grid">
+    <div class="editor-box html-box">
+        <h2>HTML</h2>
+        <textarea id="html" placeholder="Write HTML..."></textarea>
+    </div>
+
+    <div class="editor-box css-box">
+        <h2>CSS</h2>
+        <textarea id="css" placeholder="Write CSS..."></textarea>
+    </div>
+
+    <div class="editor-box js-box">
+        <h2>JavaScript</h2>
+        <textarea id="js" placeholder="Write JavaScript..."></textarea>
+    </div>
+</div>
+
+<div class="run-area">
+    <button onclick="runCode()">▶ Run Code</button>
+</div>
+
+<div class="output-area">
+    <div class="preview-box">
+        <h3>Live Output</h3>
+        <iframe id="output"></iframe>
+    </div>
+
+    <div class="console-box">
+        <h3>Console</h3>
+        <pre id="console"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
